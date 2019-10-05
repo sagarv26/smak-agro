@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/index_image"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/todo"
+                android:focusable="true" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:text="@string/product_name"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/index_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left" />
+
+</LinearLayout>

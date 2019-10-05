@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <AdapterViewFlipper
+            android:id="@+id/adapterFlipper"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:flipInterval="2000"
+            android:layout_centerHorizontal="true" />
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/about_coco_layout"
+            android:background="@drawable/parallax_background"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/adapterFlipper">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_slogan"
+                android:textStyle="normal"
+                android:textSize="@dimen/info_text"
+                android:textColor="@color/colorWhite"
+                android:layout_marginStart="20dp" />
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_slogan2"
+                android:textStyle="bold"
+                android:textSize="@dimen/title"
+                android:textColor="@color/colorWhite"
+                android:layout_marginStart="20dp" />
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/smak_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp" />
+
+            <Button
+                android:id="@+id/about_coco"
+                android:text="@string/button_about_coco"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/button_background"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/about_us_layout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/about_coco_layout">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/coco_about" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_slogan3"
+                android:textStyle="normal"
+                android:textSize="@dimen/info_text"
+                android:textColor="@color/colorBlack"
+                android:layout_marginStart="20dp" />
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_slogan4"
+                android:textSize="@dimen/title"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:layout_marginStart="20dp" />
+
+            <Button
+                android:id="@+id/about_us"
+                android:text="@string/button_about_app"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/button_background2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/about_recipe_layout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/about_us_layout">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/product_bg" />
+
+            <TextView
+                android:id="@+id/slogan_recipe1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_slogan6"
+                android:textStyle="normal"
+                android:textSize="@dimen/info_text"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginStart="20dp" />
+
+            <TextView
+                android:layout_below="@+id/slogan_recipe1"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_slogan5"
+                android:textSize="@dimen/title"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginStart="20dp" />
+
+            <Button
+                android:id="@+id/about_recipe"
+                android:text="@string/button_recipe"
+                android:textColor="@color/colorBlack"
+                android:textSize="12sp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/button_background_transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/contact_layout"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/about_recipe_layout">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/coco_bg" />
+
+            <TextView
+                android:id="@+id/contact_us"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_us"
+                android:textSize="@dimen/title"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:layout_marginStart="30dp" />
+
+            <TextView
+                android:layout_below="@+id/contact_us"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:textStyle="normal"
+                android:textSize="@dimen/info_text"
+                android:textColor="@color/colorBlack"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="50dp" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

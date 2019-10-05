@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/blank1"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/swipe_to_remove"
+            android:textAlignment="center" />
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_below="@+id/blank1"
+            android:id="@+id/cartRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_below="@+id/cartRecyclerView"
+            android:textSize="14sp"
+            android:background="@color/colorPrimary"
+            android:text="@string/place_order"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/last_step"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp" >
+        </Button>
+
+</RelativeLayout>

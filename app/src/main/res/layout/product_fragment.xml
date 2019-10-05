@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools">
+
+    <android.support.v4.widget.NestedScrollView
+        android:background="@android:color/transparent"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:shadowColor="#000"
+            android:shadowDx="0"
+            android:shadowDy="30"
+            android:shadowRadius="50"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/image_holder"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:dividerHeight="0.0px"
+                android:clipToPadding="false"
+                android:clipChildren="false"
+                card_view:cardElevation="10dp"
+                card_view:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:id="@+id/detail_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/organic_desiccated_coconut"
+                    android:contentDescription="@string/recipe_description" />
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_below="@+id/image_holder"
+                android:text="@string/product_name"
+                android:textSize="@dimen/sub_title"
+                android:textColor="@color/colorBlack"
+                android:layout_margin="5dp"
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_below="@+id/title"
+                android:id="@+id/cost_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:dividerHeight="0.0px"
+                android:clipToPadding="false"
+                android:clipChildren="false"
+                card_view:cardElevation="10dp"
+                card_view:cardPreventCornerOverlap="false">
+
+                <TextView
+                    android:layout_below="@id/cost_holder"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/info_text"
+                    android:textStyle="bold"
+                    android:id="@+id/priceTag"
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/price" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_below="@+id/cost_holder"
+                android:id="@+id/quantity_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                card_view:cardElevation="2dp"
+                card_view:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/sub_title"
+                        android:textStyle="bold"
+                        android:id="@+id/quantityTag"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/quantity_tag" />
+
+                    <EditText
+                        android:id="@+id/input_quantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/quantity"
+                        android:layout_below="@+id/quantityTag"
+                        android:inputType="numberDecimal"
+                        android:windowSoftInputMode="stateHidden"
+                        android:textCursorDrawable="@null"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_below="@+id/quantity_holder"
+                android:id="@+id/material_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/sub_title"
+                        android:textStyle="bold"
+                        android:id="@+id/materialTag"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nutritional_info" />
+
+                    <TextView
+                        android:layout_marginBottom="5dp"
+                        android:id="@+id/materialDescription"
+                        android:layout_below="@id/materialTag"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/product_stats"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/info_sub"
+                        android:textStyle="normal"
+                        android:scrollbars="vertical"
+                        android:maxLines="20"
+                        android:lines="50"
+                        android:minLines="6"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="20dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_below="@+id/material_holder"
+                android:id="@+id/product_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/sub_title"
+                        android:textStyle="bold"
+                        android:id="@+id/procedureTag"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/product_use_tag"
+                        android:layout_marginStart="10dp" />
+
+                    <TextView
+                        android:id="@+id/procedureDescription"
+                        android:layout_below="@id/procedureTag"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="20dp"
+                        android:text="@string/product_use"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/info_sub"
+                        android:textStyle="normal"
+                        android:scrollbars="vertical"
+                        android:maxLines="20"
+                        android:lines="50"
+                        android:minLines="6"
+                        android:layout_marginRight="10dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <Button
+                android:layout_centerInParent="true"
+                android:id="@+id/add_cart"
+                android:layout_below="@+id/product_holder"
+                android:text="@string/add_cart"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:layout_margin="20dp"
+                android:background="@color/colorLightOrange"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+               />
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

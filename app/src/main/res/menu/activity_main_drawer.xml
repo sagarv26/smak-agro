@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_coco_recipe" android:id="@+id/nav_recipe" android:title="Recipes" />
+        <item android:icon="@drawable/ic_info" android:id="@+id/nav_about" android:title="About" />
+        <item android:icon="@drawable/ic_shopping_cart_black" android:id="@+id/nav_cart" android:title="Your Cart" />
+    </group>
+
+    <item android:title="Communication">
+        <menu>
+            <item android:icon="@drawable/ic_contact" android:id="@+id/nav_addContact" android:title="Add Our Number" />
+            <item android:icon="@drawable/ic_call_black" android:id="@+id/nav_call" android:title="Call Us" />
+            <item android:icon="@drawable/ic_map_black" android:id="@+id/nav_address" android:title="Address" />
+            <item android:icon="@drawable/ic_share" android:id="@+id/nav_share" android:title="Share" />
+            <item android:icon="@drawable/ic_send" android:id="@+id/nav_send" android:title="Feedback" />
+        </menu>
+    </item>
+</menu>

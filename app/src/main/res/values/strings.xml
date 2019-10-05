@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">SMAK AGRO</string>
+    <string name="app_mail">smakagroenterprises@gmail.com</string>
+    <string name="app_slogan">Enjoy the Best Coconut</string>
+    <string name="app_slogan2">Only the\ngood stuff.</string>
+    <string name="app_slogan3">Quality is our Main Priority.</string>
+    <string name="app_slogan4">Expect the \nbest</string>
+    <string name="app_slogan5">RECIPE CORNER</string>
+    <string name="app_slogan6">Coconut is Good to You \nUse it</string>
+
+
+    <string name="button_about_coco">About Coco</string>
+    <string name="button_about_app">About Us</string>
+    <string name="button_about">About</string>
+    <string name="button_recipe">Recipe</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="add_cart">Add to Cart</string>
+    <string name="todo">Image</string>
+
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">Recipes</string>
+    <string name="tab_text_3">Product</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="cart_bill_tag">Note:\n Please select below Message or Mail option to Place the Order</string>
+
+
+    <string name="product_name">Organic Desiccated Coconut</string>
+    <string name="nutritional_info">Nutritional Information:</string>
+    <string name="product_stats"> Serving Size : <b>100gm</b>\n
+                           Energy : <b>723kcal</b>\n
+                           Protein : <b>9gm</b>\n
+                           Carbohydrates : <b>6gm</b>\n
+                           Fat : <b>66 to 70gm</b>\n
+                           Natural Sugar : <b>6gm</b>\n
+                           Zero Cholesterol, low in sodium</string>
+
+    <string name="product_use_tag">Popular Use:</string>
+    <string name="product_use">
+     * 100% organic with zero artificial preservatives.\n
+    * 10-12 fresh matures coconuts make one kg of desiccated coconut. It contains Vitamins, Proteins and Good fat of fresh coconut\n
+    * Shelf life is over six months. For longer shelf life, preserve in dry air tight container\n
+    * Organic desiccated coconut can be used in place of fresh coconut by a simple method of using warm water. You can put warm water with desiccated coconut, let it completely cool before using as replacement for fresh coconut\n
+    * Savor ingredient for chocolates, biscuits bakery and confectionery products\n</string>
+
+    <string name="about_coco">The coconut tree (Cocos nucifera) is a member of the palm tree family (Arecaceae) and the only known living species of the genus Cocos.
+        The term "coconut" (or the archaic "cocoanut") can refer to the whole coconut palm, the seed, or the fruit, which botanically is a drupe, not a nut.
+        The term is derived from the 16th-century Portuguese and Spanish word coco, meaning "head" or "skull" after the three indentations on the coconut shell that resemble facial featuresCoconuts are known for their versatility of uses, ranging from food to cosmetics.
+        The inner flesh of the mature seed, as well as the coconut milk extracted from it, forms a regular part of the diets of many people in the tropics and subtropics.
+        Coconuts are distinct from other fruits because their endosperm contains a large quantity of clear liquid, called "coconut water" or "coconut juice".</string>
+
+
+    <string name="material_tag">Material:</string>
+    <string name="procedure_tag">Procedure: </string>
+    <string name="quantity_tag">Quantity : </string>
+    <string name="quantity">Enter Quantity in Numbers:</string>
+    <string name="procedure_description">Description:</string>
+    <string name="material_description">Description:</string>
+    <string name="price"> ₹ 200 / KG</string>
+    <string name="price_tag">Price: </string>
+
+    <string name="recipe_tag">Laddu</string>
+    <string name="total_tag">Total Amount : </string>
+
+
+    <string name="contact_us">Contact Us: </string>
+    <string name="address">Smak Agro Enterprises\n7-K2, Near DC Office, Karur Industrial Area \nDavangere – 577006 \nKarnataka \nIndia \nTel no. +91-9845779102\nsmakagroenterprises@gmail.com</string>
+
+
+    <string name="material_laddu">
+        Coconut Laddu is a famous South Indian dessert recipe, made on festivals like Ganesh Chaturthi, Dassehra and Diwali. This coconut recipe is loved by people of all age groups.
+        \n1 cup Desiccated coconut
+        \n1/4 cup water
+        \n1/2 cup sugar
+        \n1/2 teaspoon green cardamom\n</string>
+    <string name="material_barfi">
+        Coconut Barfi is a famous South Indian dessert recipe, made on festivals like Ganesh Chaturthi, Dassehra and Diwali. This coconut recipe is loved by people of all age groups.
+        \n1 cup desiccated coconut
+        \n1 cup rava
+        \n1 cup milk
+        \n1 cup ghee
+        \n1-1/2 to 2 cups sugar</string>
+
+    <string name="procedure_laddu">
+        1) Mix sugar with water and allow it to dissolve.
+        \n2) Keep the sugar solution on low flame and cook for 10 minutes.
+        \n3) The solution will start to thicken and continue to cook till you get the one thread consistency in the sugar solution.
+        \n4) Switch off the flame and add the desiccated coconut and cardamom powder to the sugar solution.
+        \n5) Stir well and let the mixture be just warm and then make small balls from the mixture and serve.\n
+    </string>
+    <string name="procedure_barfi">
+        1) Mix sugar with water and allow it to dissolve.\n
+        2) Keep the sugar solution on low flame and cook for 10 minutes.\n
+        3) The solution will start to thicken and continue to cook till you get the one thread consistency in the sugar solution.\n
+        4) Switch off the flame and add the desiccated coconut and cardamom powder to the sugar solution.\n
+        5) Stir well and let the mixture be just warm and then make small balls from the mixture and serve..\n
+    </string>
+    <string name="what_you_expect">What you expect?</string>
+    <string name="tell_us_what_you">Tell us what you are expecting\n from us about this item</string>
+    <string name="recipe_description">Recipe Description</string>
+    <string name="swe">Designed and Developed by SWE Inc</string>
+    <string name="place_order">Place Order</string>
+    <string name="swipe_to_remove">Swipe to remove from Cart</string>
+    <string name="smak_agro_bill">SMAK Agro Bill</string>
+
+</resources>
